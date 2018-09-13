@@ -9,7 +9,9 @@ public class Address {
     private String  adds;
     private String  province;
 
-    public String getProvinces() {
+
+
+    public String getProvince() {
         return province;
     }
 
