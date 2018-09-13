@@ -7,7 +7,15 @@ public class Address {
     private String city;
     private String name;
     private String  adds;
+    private String pro;
 
+    public String getPro() {
+        return pro;
+    }
+
+    public void setPro(String pro) {
+        this.pro = pro;
+    }
 
     public String getAdds() {
         return adds;
