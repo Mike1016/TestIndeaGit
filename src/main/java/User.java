@@ -7,7 +7,16 @@ public class User {
     private String name;
     private String email;
     private String password;
+    private String sex;
 
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
 
     public String getPassword() {
         return password;
