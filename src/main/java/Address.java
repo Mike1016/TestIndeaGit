@@ -7,14 +7,16 @@ public class Address {
     private String city;
     private String name;
     private String  adds;
-    private String pro;
+    private String  province;
 
-    public String getPro() {
-        return pro;
+
+
+    public String getProvince() {
+        return province;
     }
 
-    public void setPro(String pro) {
-        this.pro = pro;
+    public void setProvinces(String province) {
+        this.province = province;
     }
 
     public String getAdds() {
