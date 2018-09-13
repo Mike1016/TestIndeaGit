@@ -6,6 +6,16 @@ public class Address {
     private int id;
     private String city;
     private String name;
+    private String  adds;
+
+
+    public String getAdds() {
+        return adds;
+    }
+
+    public void setAdds(String adds) {
+        this.adds = adds;
+    }
 
     public int getId() {
         return id;
